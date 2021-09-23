@@ -20,6 +20,11 @@ form div {
   display: inline-block;
 }
 
+.timer {
+  display: flex;
+  flex-direction: column;
+}
+
 button.running {
   background-color: dodgerBlue;
 }

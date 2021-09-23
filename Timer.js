@@ -5,6 +5,7 @@ class Timer{
     this.onLap = onLap;
   }
   render(){
+    this.el.classList.add('timer');
     this.label = document.createElement('span');
     this.label.innerHTML = 0;
     this.el.appendChild(this.label);
